@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Página Teste</title>
+        <script src="formScript.js"></script>
+    </head>
+    <body>
+        <form method="POST" onsubmit="return false">
+                <input type="text" name="nome" onfocus="focou()" onblur="desfocou()"/>
+                
+                <select name="cidade" onchange="mudouOpcao(this)">
+                    <option>SP</option>
+                    <option>RJ</option>
+                    <option>ES</option>
+                    <option>MG</option>
+                </select>
+                <br/><br/>
+    
+                <input type="submit" value="Enviar"/>
+    
+            </form>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Testes - eventos do mouse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="mouseScript.js"></script>
+</head>
+<body>
+
+    <button onmousedown="apertouMouse()" 
+    onmouseup="soltouMouse()" 
+    onmouseover="mouseEmCima()" 
+    onmouseout="mouseSaiuDeCima()" 
+    onmousemove="moveuMouse()">
+    BOTÃO SIMPLES<br>
+    (Aperte/ solte/ passe por cima / saia de cima/ mova o mouse)</button>
+
+    <button onclick="clicou()" 
+    oncontextmenu="return botaoDireito()">
+    OUTRO SIMPLES BOTÃO<br>
+    (Clique/ clique com botão direito do mouse)</button>
+
+    <button ondblclick="cliqueDuplo()">
+        APENAS MAIS UM BOTÃO<br>
+        (Dê um duplo clique com o mouse)</button>
+    
+</body>
+</html>
