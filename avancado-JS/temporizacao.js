@@ -1,0 +1,20 @@
+//DOIS TIPOS DE TEMPORIZADOR
+
+function acao(){
+
+	document.write("Executou...<br/>");
+
+}
+//EXECUTA A FUNÇÃO E ESPERA TANTOS SEGUNDOS
+//setInterval(acao, 2000);
+
+//ESPERA TANTOS SEGUNDOS E EXECUTA A FUNÇÃO
+//setTimeout(acao, 2000);//SÓ EXECUTA UMA VEZ
+
+//TRUQUE PARA PARAR O SETINTERVAL
+//COLOCANDO ELE DENTRO DE UMA VARIÁVEL
+var timer = setInterval(acao, 1000);
+//PARA PARAR O SETINTERVAL
+//BASTAR COLOCAR O clearInterval(timer);
+//O MESMO VALE PARA O SETTIMEOUT
+
