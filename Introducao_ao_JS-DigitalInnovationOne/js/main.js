@@ -90,3 +90,66 @@
 // alert("Horas: " + d.getHours()); // hora
 // alert("Dia: " + d.getDay()); // dia
 
+// Funções
+
+// function soma(n1, n2){
+//     return n1 + n2;
+// }
+
+// alert(soma(5, 10));
+
+// function setReplace(frase, nome, novo_nome){
+//     return frase.replace(nome, novo_nome);
+// }
+
+// alert(setReplace("Vai Japão", "Japão", "Brasil"));
+
+// var validar = 0;
+
+// function validaIdade(idade){
+
+//     if(idade >= 18){
+//         validar = true;
+//     } else{
+//         validar = false;
+//     }
+//     return validar;
+// }
+
+// var idade = prompt("Qual sua idade? ");
+// validaIdade(idade)
+// console.log(validar);
+
+
+// Manipulando elementos da página
+
+// function clicou(){
+//     // alert("obrigado por clicar");
+//     document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>"
+// }
+
+// function redirecionar(){
+//     // window.open("https://web.digitalinnovation.one/"); // abre em outra janela :)
+//     window.location.href = "https://web.digitalinnovation.one/"; // não abre em nova janela :(
+// }
+
+// function trocar(elemento){
+//     // document.getElementById("mouseover").innerHTML = "Obrigado por passar o mouse";
+//     // alert("Trocar texto")
+//     elemento.innerHTML = "Obrigado por passar o mouse";
+// }
+
+// function voltar(elemento){
+//     // document.getElementById("mouseover").innerHTML = "Passe o mouse aqui";
+//     elemento.innerHTML = "Passe o mouse aqui"
+// }
+
+// function load(){
+//     alert("Página carregada!");
+// }
+
+// function funcaoChange(elemento){
+//     alert(elemento.value);
+//     console.log(elemento.value);
+// }
+
