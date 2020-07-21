@@ -1,8 +1,0 @@
-function alterarDiv(){
-
-	var area = document.getElementById("area");
-	var texto = prompt("Qual seu nome?");
-
-	area.innerHTML = texto;
-
-}
