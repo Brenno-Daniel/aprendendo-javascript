@@ -1,6 +1,6 @@
 // Array é uma estrutura dinâmica
 // o Array em JS na realidade é um Objeto
-console.log('typeof de Array: ',typeof Array)
+console.log('typeof de Array (função Array): ',typeof Array)
 console.log('typeof de new Array (instânia a partir da função Array): ', typeof new Array)
 console.log('typeof de Array literal: ' , typeof [])
 
